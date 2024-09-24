@@ -1,0 +1,82 @@
+.google-inputfield {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  z-index: 20;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.google-container {
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+input[type="radio"]:checked {
+  z-index: 20;
+  border-color: #b4b4b4c0;
+  background-color: #6a6a6a;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #2260ff;
+}
+
+/* Custom modal style */
+.custom-modal .ant-modal-content {
+    margin-top: 10rem;
+  background-color: #f5f3f3;
+  color: #000000;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.custom-modal .ant-modal-header {
+  background-color: #44444400;
+  border-bottom: none;
+}
+
+.custom-modal .ant-modal-footer {
+  border-top: none;
+}
+
+.custom-modal .ant-btn-primary {
+  background-color: #000000;
+  border:1px wheat solid;
+}
+.custom-modal .ant-btn-primary:hover {
+  background-color: #000000b5 !important;
+  border:1px rgb(0, 0, 0) solid;
+}
+
