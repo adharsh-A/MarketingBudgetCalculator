@@ -68,7 +68,7 @@ const Instagram = () => {
         <CardSpotlight className="h-[30rem] w-[45rem] rounded-2xl z-20">
           <div className="google-card w-full h-full flex flex-col items-center justify-center">
             <h1 className="z-20 text-3xl font-bold text-center text-white py-10">
-              Youtube Ads Expense Calculator
+              Instagram Ads Expense Calculator
             </h1>
             <div className="radio-group z-20 gap-10 flex flex-row">
               <label className="z-20 text-center flex flex-col">
